@@ -1,0 +1,29 @@
+text_search: "poodle"
+regex: false
+
+# Language filtering
+languages:
+  - eng_Latn
+
+# Size filtering  
+token_count_min: 2000
+token_count_max: 10000
+
+# Date filtering
+date_from: "2020-01-01"
+date_to: "2024-12-31"
+
+# Processing settings
+limit: 3
+max_samples_to_check: 3000
+batch_size: 300
+use_streaming: true
+
+# Output settings
+output_dir: ./yaml_config_test
+output_format: jsonl
+save_full: true
+save_config: true
+
+# Filter logic
+filter_logic: AND

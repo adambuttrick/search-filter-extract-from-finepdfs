@@ -1,0 +1,15 @@
+{
+  "text_search": "neural network",
+  "languages": ["eng_Latn"],
+  "token_count_min": 1000,
+  "token_count_max": 5000,
+  "limit": 3,
+  "max_samples_to_check": 2000,
+  "batch_size": 200,
+  "use_streaming": true,
+  "output_dir": "./json_config_test",
+  "output_format": "jsonl",
+  "save_full": true,
+  "save_config": true,
+  "filter_logic": "AND"
+}
